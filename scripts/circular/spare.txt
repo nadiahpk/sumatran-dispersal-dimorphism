@@ -1,0 +1,7 @@
+  import tol_colors as tc
+  cset = tc.tol_cset('muted')
+  
+  plt.rc('axes', prop_cycle=plt.cycler('color', list(cset)))
+  
+  for x, y in XY:
+      plt.plot(x, y, alpha=0.9 )

@@ -1,0 +1,39 @@
+suffix = _4
+
+    Increased strictness of mutant equilibrium tol_mut = 1e-9
+    Not getting the lower half of the pip graph with suffix = _1 meeting the 0,0 point, so tried a longer tlimit
+
+    run_number = 1
+        tlimit  = 10,000
+        tburnin = 10,000
+
+    run_number = 2
+        tlimit  = 100,000 <- increased tlimit
+        tburnin = 10,000
+        See if the lower half of the pip graph meets the 0,0 point
+
+    run_number = 3
+        tlimit  = 10,000
+        tburnin = 10,000
+
+    run_number >= 4
+        tlimit  = 100,000 <- increased tlimit
+        tburnin = 10,000
+
+suffix = _1
+
+    tol_mut = 1e-6
+
+    run_number = 1
+        tlimit  = 10,000
+        tburnin = 10,000
+        Not getting the lower half of the pip graph meeting the 0,0 point, so tried a longer tlimit
+
+    run_number = 2
+        tlimit  = 100,000 <- increased tlimit
+        tburnin = 10,000
+        See if the lower half of the pip graph meets the 0,0 point
+
+    run_number = 3
+        tlimit  = 10,000
+        tburnin = 10,000
